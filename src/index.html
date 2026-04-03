@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Stack Overflown - A Dev-Themed Puzzle Game</title>
+    <title>Stack Overflown - Un Juego de Puzzle Temático Dev</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,44 +11,44 @@
       <div class="main-panel">
         <div>
           <h1>🧱 Stack Overflown</h1>
-          <div class="subtitle">Match the error patterns before you overflow!</div>
+          <div class="subtitle">¡Empareja los patrones de error antes de que desborde!</div>
         </div>
         <canvas id="gameCanvas" width="300" height="600"></canvas>
       </div>
 
       <div class="side-panel">
         <div class="info-section">
-          <h3>Score</h3>
+          <h3>Puntuación</h3>
           <div class="score" id="score">0</div>
-          <div class="status" id="status">Playing...</div>
+          <div class="status" id="status">Jugando...</div>
         </div>
 
         <div class="info-section">
-          <h3>Target Pattern</h3>
+          <h3>Patrón Objetivo</h3>
           <div class="pattern-preview">
             <canvas id="patternCanvas" width="100" height="100"></canvas>
-            <div class="pattern-name" id="patternName">Loading...</div>
+            <div class="pattern-name" id="patternName">Cargando...</div>
           </div>
         </div>
 
         <div class="info-section">
-          <h3>Controls</h3>
+          <h3>Controles</h3>
           <div class="controls">
-            <strong>←/→</strong> Move<br />
-            <strong>↑</strong> Rotate<br />
-            <strong>↓</strong> Soft Drop<br />
-            <strong>Space</strong> Hard Drop<br />
-            <strong>P</strong> Pause
+            <strong>←/→</strong> Mover<br />
+            <strong>↑</strong> Rotar<br />
+            <strong>↓</strong> Caída Suave<br />
+            <strong>Espacio</strong> Caída Dura<br />
+            <strong>P</strong> Pausa
           </div>
         </div>
       </div>
     </div>
 
     <div class="game-over" id="gameOver">
-      <h2>STACK OVERFLOW!</h2>
-      <p>Your stack reached the ceiling</p>
-      <p>Final Score: <span id="finalScore">0</span></p>
-      <button onclick="location.reload()">Restart</button>
+      <h2>¡DESBORDAMIENTO DE PILA!</h2>
+      <p>Tu pila alcanzó el techo</p>
+      <p>Puntuación Final: <span id="finalScore">0</span></p>
+      <button onclick="location.reload()">Reiniciar</button>
     </div>
 
     <script src="patterns.js"></script>
